@@ -1,0 +1,40 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('360_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#container {
+    margin: 100px auto;
+    padding: 30px;
+    width: 400px;
+    background-color: rgba(198, 127, 127, 0.511); 
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #060000;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 1px;
+    width: 100%;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #becbbe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #232523;
+}
